@@ -70,6 +70,7 @@
 <script src="js/main.js"></script>
 
 <script>
+    //this function passes the csrf token value to the hidden field in the form.
     $(document).ready(function(){
         $.ajax({
             url: "csrf.php",
