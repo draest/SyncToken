@@ -38,7 +38,11 @@
                     <span class="symbol-input100">
 							<i class="fa fa-user"></i>
 						</span>
+
                 </div>
+                <button class="login100-form-btn">
+                    Submit
+                </button>
         </div>
         <input type="hidden" name="csrf_token" value="" id="csrf_token"></input>
     </div>
@@ -46,9 +50,7 @@
 
 
                 <div class="container-login100-form-btn p-t-10">
-                    <button class="login100-form-btn">
-                        Login
-                    </button>
+
                 </div>
 
             </form>
