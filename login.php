@@ -1,7 +1,7 @@
 <?php
 $username = "admin";
 $password = "password";
-
+//q
 if ($_POST['username'] == $username && $_POST['pass'] == $password){
     $session_id = uniqid();
     $csrf_token = uniqid() . $session_id;
